@@ -14,7 +14,7 @@ body{
 
     left: 0;
     right: 0;
-    height: 250px;
+    height: 230px;
     background-color: white;
     text-align: center;
     box-shadow: 0 0 14px rgba(0,0,0,0.8);
@@ -31,7 +31,7 @@ body{
     margin:5px;
 }
 .bottom-header{
-    margin-top: 70px;
+    margin-top: 50px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -59,14 +59,15 @@ body{
     border-bottom: 2px rgb(16, 151, 196) solid;
     width: 100%;
 }
-.background-image{
-    position: fixed;
-    width: 100%;
-}
+
 .content{
     height: 1000px;
     background-color: black;
 
+}
+.background-image{
+    position: fixed;
+    width: 100%;
 }
 .footer{
     z-index: 9;
@@ -101,4 +102,18 @@ body{
     margin-bottom: 25px;
     margin-top: 100px;
 
+}
+.contacts{
+    height: 120px;
+    background-color: rgb(60, 72, 88);
+}
+.contacts-title{
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 4px white solid;
+    
+}
+.final-consideration{
+    height: 34px;
+    background-color:rgb(5, 12, 56);
 }
