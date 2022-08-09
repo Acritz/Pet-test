@@ -61,3 +61,24 @@ body{
     position: fixed;
     width: 100%;
 }
+
+.footer{
+    z-index: 9;
+    background-color: rgb(44, 108, 159);
+    position: absolute;
+    bottom: 10px;
+    height: 700px;
+    text-align: center;
+}
+.footer-title{
+    font-size: 46px;
+    margin-bottom: 15px;
+    color: white;
+}
+.footer-text{
+    color:white;
+    padding-left: 140px;
+    padding-right: 140px;
+    line-height: 25px;
+    font-size: 15px;
+}
