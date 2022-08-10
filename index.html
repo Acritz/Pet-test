@@ -42,17 +42,28 @@
         </div>
         <img class="background-image" src="download.jpg">
         <div class="content-home">
-            <ul class="slider">
-                <li id="item1" class="item-slider">
-                    <button id="item1-left" class="button-slider"></button>
-                    <button id="item1-right" class="button-slider"></button>
-                </li>
-                <li id="item2" class="item-slider">
-                    <button id="item2-left" class="button-slider"></button>
-                    <button id="item2-right" class="button-slider"></button>
-                </li>
-            </ul>
-        </div>
+            <input type="radio" name="slider"id="slide1" checked>
+            <input type="radio" name="slider"id="slide2">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <h2 class="slide-content-title">Slide 1</h2>
+                            <p class="slide-content-text">content slide 1</p>
+                        </div>
+                        <div class="slide slide_2">
+                            <h2 class="slide-content-title">Slide 2</h2>
+                            <p class="slide-content-text">content slide 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="controls">
+                    <label for="slide1" class="bar" ></label>
+                    <label for="slide2" class="bar" ></label>
+                </div>
+            </div> 
+            </div>
+
         <div class="footer">
             <h2 class="footer-title">
                 Sobre o Evento
@@ -91,6 +102,5 @@
                 </strong>
             </div>
         </div>
-        <script src="script.js"></script>
     </body>
 </html>
