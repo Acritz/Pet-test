@@ -20,32 +20,38 @@
                 </p>
             </div>
             <div class="bottom-header">
-                <a class="pages">
+                <a class="pages" onclick="location.href='index.html'">
                     Home
                 </a>
                 <a class="pages" onclick="location.href='trabalhos.html'">
                     Chamada de Trabalhos
                 </a>
-                <a class="pages">
+                <a class="pages" onclick="location.href='incricoes.html'">
                     Inscrições
                 </a>
-                <a class="pages">
+                <a class="pages" onclick="location.href='programacao.html'">
                     Programação
                 </a>
-                <a class="pages">
+                <a class="pages" onclick="location.href='avalieoevento.html'">
                     Avalie o evento    
                 </a>
-                <a class="pages">
-                    Info
-                </a>
+                <a onclick="location.href='local.html'" class="pages">Local</a>
+
+ 
             </div>
         </div>
         <img class="background-image" src="download.jpg">
         <div class="content-home">
-            
-            <div class="nav">
-
-            </div>
+            <ul class="slider">
+                <li id="item1" class="item-slider">
+                    <button id="item1-left" class="button-slider"></button>
+                    <button id="item1-right" class="button-slider"></button>
+                </li>
+                <li id="item2" class="item-slider">
+                    <button id="item2-left" class="button-slider"></button>
+                    <button id="item2-right" class="button-slider"></button>
+                </li>
+            </ul>
         </div>
         <div class="footer">
             <h2 class="footer-title">
@@ -85,5 +91,6 @@
                 </strong>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
